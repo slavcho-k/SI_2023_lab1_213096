@@ -1,0 +1,91 @@
+1. 
+
+2.
+
+3. 
+
+4. Во терминал mkdir SI_2023_lab1_213096, потоа cd SI_2023_lab1_213096. И за иницијализација на Git -> git init 
+
+5. За поврзвуање на локалното репо со ремоте репото:
+git commit -m "first commit"
+git branch -M master
+git remote add origin https://github.com/slavcho-k/test.git
+git push -u origin master
+
+6. Стандардно креирање фајл, потоа git add README.md и git -m "Initial commit" 
+
+7. Стандардно креирање фајл, потоа git add SILab1.java и git -m "Add java class"
+
+8. /
+
+9. За креирање гранки git checkout -b <ime-na-granka>
+
+10. Автоматски префрлање и креирање на нова гранка со линијата погоре (git checkout -b bug1)
+
+11. git add SILab1.java потоа git commit -m "Fix wrong loop for reading"
+
+12. git checkout -b bug2 
+
+13. git add SILab1.java и git commit -m "Fix wrong condition in filterOddNumbers"
+
+14. git checkout -b bug3 
+
+15. git add SILab1.java и git commit -m "Fix method sumEvenNumbers"
+
+16. git checkout <ime-na-granka> и git merge origin/master се потребните команди
+
+17. git checkout master
+
+18. 
+git pull
+git merge bug1
+git add .
+git commit -m "Merge bug1"
+git push
+
+19. git checkout <ime-na-granka> и git merge origin/master за секоја гранка
+
+20. 
+git pull
+git merge bug2
+git add .
+git commit -m "Merge bug1"
+git push
+
+21. git checkout <ime-na-granka> и git merge origin/master за секоја гранка
+
+22. git checkout bug3
+
+23. 
+git pull
+git rebase master
+
+24. git checkout master
+
+25. 
+git branch --set-upstream-to=origin/<branch> bug3
+git push --force
+
+26. 
+git fetch
+git add .
+git checkout <ime-na-granka> -> за сите гранки
+git merge origin/master
+git push
+git checkout bug3
+git push --force origin bug3
+
+27. git checkout master
+git add .
+git commit -m "Final commit"
+
+28. 
+git checkout <ime-na-granka> -> за секоја гранка
+git merge master
+git add .
+git commit -m "Merge with master"
+git push
+
+
+
+

@@ -1,0 +1,49 @@
+commit b86a82002a4dad40c4daf14e66c8427c37b5609d (HEAD -> master, origin/master, bug3)
+Author: slavcho.karanfilovsk <slavco.karafilovski@gmail.com>
+Date:   Tue Apr 4 23:34:51 2023 +0200
+
+    Fix wrong condition in sumEvenNumbers
+
+commit b7b35972944d07b45cb4c53504f6ef44236979ea
+Merge: ec15141 b282f57
+Author: slavcho.karanfilovsk <slavco.karafilovski@gmail.com>
+Date:   Tue Apr 4 23:54:11 2023 +0200
+
+    Merge branch 'bug2'
+
+commit b282f5789bf2b4e91a755895804b870f953c794d (bug2)
+Author: slavcho.karanfilovsk <slavco.karafilovski@gmail.com>
+Date:   Tue Apr 4 23:53:20 2023 +0200
+
+    Fix wrong condition in filterOddNumbers
+
+commit ec151413202b4d5f8d8ee97dbb4d69fd54c046a5
+Author: slavcho.karanfilovsk <slavco.karafilovski@gmail.com>
+Date:   Tue Apr 4 23:51:48 2023 +0200
+
+    Merge bug1
+
+commit 379c911bdd76871d5fdc7025d6f790887bb9f256 (origin/bug2)
+Author: slavcho.karanfilovsk <slavco.karafilovski@gmail.com>
+Date:   Tue Apr 4 23:33:34 2023 +0200
+
+    fix wrong condition in filterOddNumbers
+
+commit 46e53d266ba03d6c5b4441dd94f1f3b999e9be3c (origin/bug1, bug1)
+Author: slavcho.karanfilovsk <slavco.karafilovski@gmail.com>
+Date:   Tue Apr 4 23:30:56 2023 +0200
+
+    Fix wrong loop for reading
+
+commit 8ccb886408c52faa351fdbe0d46f69c6f1384913
+Author: slavcho.karanfilovsk <slavco.karafilovski@gmail.com>
+Date:   Tue Apr 4 23:17:05 2023 +0200
+
+    Add java class
+
+commit 9d252714aaa0bdf5b3995dbd90c50c51e8f13bb1
+Author: slavcho.karanfilovsk <slavco.karafilovski@gmail.com>
+Date:   Tue Apr 4 23:14:33 2023 +0200
+
+    Initial commit
+
